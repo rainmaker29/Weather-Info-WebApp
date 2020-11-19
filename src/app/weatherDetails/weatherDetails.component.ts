@@ -8,8 +8,14 @@ import {Component, Input, OnInit} from '@angular/core';
 
 export class WeatherDetails implements OnInit {
   @Input() weatherData: data[];
-
+  city: string;
   ngOnInit() {
+
+  }
+
+  getCity(event: any){
+
+    this.city = event.target.value;
 
   }
 }
