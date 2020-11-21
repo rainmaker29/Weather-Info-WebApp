@@ -1,0 +1,5 @@
+To build : sudo docker build -t weatherapp-docker .
+
+To run : sudo docker run -it -p 7000:4200 weatherapp-docker:latest
+
+Open localhost:7000 to run the app
